@@ -1,0 +1,14 @@
+.body {
+  font-family: "Neue Montreal";
+}
+#hero-container {
+  background-color: #c7d0d9;
+}
+#carousel-hero-text {
+  font-size: 150.38px;
+  font-weight: 500;
+  line-height: 180.45px;
+}
+#home {
+  background: #f4f7fa;
+}
