@@ -1,9 +1,13 @@
 import { FC } from "react";
 import OverlayButton from "./OverlayButton";
 import HeroMovingText from "./HeroMovingText";
-import NavLinks from "./Navlinks";
+import NavLinks from "./NavLinks";
 import HeroImage from "../assets/people.png";
-const Header: FC = () => {
+interface Props {
+  isHidden: boolean;
+  handleHidden: () => void;
+}
+const Header: FC<Props> = ({ ...props }) => {
   return (
     <div className="relative">
       <NavLinks />
@@ -11,9 +15,8 @@ const Header: FC = () => {
         className="h-screen relative flex justify-center items-end overflow-hidden"
         id="hero-container"
       >
-        {/* <NavLinks /> */}
         <img className="max-h-screen" src={HeroImage} alt="" />
-        <OverlayButton />
+        <OverlayButton {...props} />
         <HeroMovingText />
       </div>
     </div>

@@ -1,5 +1,5 @@
 import { FC } from "react";
-import NavLinks from "../components/Navlinks";
+import NavLinks from "../components/NavLinks";
 import Footer from "../components/Footer";
 const Contact: FC = () => {
   return (
