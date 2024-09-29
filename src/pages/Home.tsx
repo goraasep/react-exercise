@@ -16,7 +16,7 @@ const Home: FC = () => {
       </div>
       <Galeries />
       <Testimonials />
-      <Footer />
+      <Footer isHome={true} />
     </>
   );
 };
