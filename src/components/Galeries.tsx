@@ -16,12 +16,12 @@ const Galeries: FC = () => {
           );
         })}
       </div>
-      <div className="flex gap-10 flex-row overflow-scroll ">
+      <div className="flex gap-10 flex-row overflow-x-scroll overflow-y-visible ">
         {IMAGE_LIST_2.map((images, index) => {
           return (
             <div
               key={index}
-              className="px-12 py-14 bg-works flex-shrink-0 hover:shadow-xl"
+              className="px-12 py-14 bg-works flex-shrink-0 hover:shadow-2xl"
             >
               <img src={images.src} alt="" />
             </div>

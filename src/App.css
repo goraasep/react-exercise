@@ -8,6 +8,7 @@
   font-size: 150.38px;
   font-weight: 500;
   line-height: 180.45px;
+  animation: scroll 10s linear infinite;
 }
 .bg-home {
   background: #f4f7fa;
@@ -23,4 +24,18 @@
 
 .text-dark-gray {
   color: #3c3d3e;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.scrolling-text {
+  /* display: inline-block;
+  white-space: nowrap; */
+  animation: scroll 10s linear infinite;
 }
