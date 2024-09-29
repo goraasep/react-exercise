@@ -9,6 +9,18 @@
   font-weight: 500;
   line-height: 180.45px;
 }
-#home {
+.bg-home {
   background: #f4f7fa;
+}
+
+.bg-works {
+  background: #c7d0d9;
+}
+
+.bg-footer {
+  background: #0b0c0e;
+}
+
+.text-dark-gray {
+  color: #3c3d3e;
 }

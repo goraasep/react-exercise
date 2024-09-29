@@ -6,6 +6,7 @@
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import "./App.css";
+import Contact from "./pages/Contact";
 function App() {
   // const [count, setCount] = useState(0);
 
@@ -13,6 +14,7 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Home />}></Route>
+        <Route path="/contact-us" element={<Contact />}></Route>
       </Routes>
     </>
   );
