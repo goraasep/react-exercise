@@ -6,6 +6,7 @@ import HeroImage from "../assets/people.png";
 interface Props {
   isHidden: boolean;
   handleHidden: () => void;
+  // ref: React.RefObject<HTMLElement>;
 }
 const Header: FC<Props> = ({ ...props }) => {
   return (
