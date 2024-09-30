@@ -2,7 +2,7 @@ import { FC } from "react";
 import TESTIMONY_LIST from "../constants/testimonyList.ts";
 const Testimonials: FC = () => {
   return (
-    <div className="px-20 flex justify-between pt-40 pb-[141px] flex-col gap-40 bg-home">
+    <div className="px-20 flex justify-between pt-[119px] pb-[141px] flex-col gap-40 bg-home">
       <div className="grid grid-cols-3" id="about">
         <div className="col-span-1 text-4xl font-medium">Testimonials</div>
         <div className="col-span-2 text-2xl flex flex-col gap-16">

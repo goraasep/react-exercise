@@ -11,7 +11,9 @@ const WorkItem: FC<Project> = ({ name, roles, link }) => {
   return (
     <div className="flex justify-between">
       <div>
-        <div className="text-6xl">{name}</div>
+        <a href={link} className="text-6xl">
+          {name}
+        </a>
         <div className="text-lg flex flex-row mt-[18px]">
           {roles.map((role, index) => {
             if (index !== 0 && index !== roles.length - 1) {

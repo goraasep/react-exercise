@@ -39,7 +39,7 @@ const Contact: FC = () => {
                 id="name"
                 type="text"
                 placeholder="James Robert"
-                className="w-full p-3 border-b-[1px] border-gray-500 focus:outline-none focus:border-blue-500"
+                className="w-full py-3 border-b-[1px] border-gray-500 focus:outline-none focus:border-blue-500 bg-home"
               />
             </div>
             <div>
@@ -50,7 +50,7 @@ const Contact: FC = () => {
                 id="email"
                 type="text"
                 placeholder="ayush.barnwal@brightscout.com"
-                className="w-full p-3 border-b-[1px] border-gray-500 focus:outline-none focus:border-blue-500"
+                className="w-full py-3 border-b-[1px] border-gray-500 focus:outline-none focus:border-blue-500 bg-home"
               />
             </div>
             <div>
@@ -61,7 +61,7 @@ const Contact: FC = () => {
                 id="subject"
                 type="text"
                 placeholder="For web design work Enquire"
-                className="w-full p-3 border-b-[1px] border-gray-500 focus:outline-none focus:border-blue-500"
+                className="w-full py-3 border-b-[1px] border-gray-500 focus:outline-none focus:border-blue-500 bg-home"
               />
             </div>
             <div>
@@ -71,7 +71,7 @@ const Contact: FC = () => {
               <textarea
                 name=""
                 id="message"
-                className="w-full p-3 border-b-[1px] border-gray-500 focus:outline-none focus:border-blue-500 h-[158px]"
+                className="w-full py-3 border-b-[1px] border-gray-500 focus:outline-none focus:border-blue-500 h-[158px]  bg-home"
                 placeholder="Type your Message"
               ></textarea>
             </div>
