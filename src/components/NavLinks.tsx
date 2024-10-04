@@ -10,6 +10,7 @@ const NavLinks: FC = () => {
         </a>
         <a href="/#work">Work</a>
         <a href="/contact-us">Contact</a>
+        <a href="/messages">Messages</a>
       </div>
     </div>
   );

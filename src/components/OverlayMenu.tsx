@@ -50,6 +50,13 @@ const OverlayMenu: FC<Props> = ({ ...props }) => {
               />
               <a href="/contact-us">Contact</a>
             </div>
+            <div className="flex gap-5 items-center group">
+              <FontAwesomeIcon
+                icon={faCircle}
+                className="w-[8px] invisible group-hover:visible"
+              />
+              <a href="/messages">Messages</a>
+            </div>
           </div>
           <div className="flex gap-8 ps-8">
             <a href="https://www.linkedin.com">Linkedin</a>
